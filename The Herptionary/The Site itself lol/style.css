@@ -6,15 +6,23 @@
 *:not(i) {
     font-family: "Times New Roman", serif;
 }
-head {
+header {
+    padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
     background-color: #03350f;
     color: #ffffff;
 }
 body {
+    margin: 50px;
     background-color: #ffffff;
+    color:#000000;
+    padding-bottom: 60px;
 }
 .container {
-    background-color: #b6ffd2;
+    background-color: #03350f;
     width: 90vmin;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -34,16 +42,16 @@ body {
     width: 70%;
     border: none;
     outline: none;
-    border-bottom: 3px solid #03350f;
+    border-bottom: 3px solid #012206;
     font-size: 16px;
 }
 .search-box button {
     padding: 15px 0;
     width: 25%;
-    background-color: #03350f;
+    background-color: #5dc576;
     border: none;
     outline: none;
-    color: #ffffff;
+    color: #000000;
     border-radius: 5px;
 }
 .result {
@@ -73,10 +81,10 @@ body {
     font-size: 14px;
 }
 .word-meaning {
-    color: #012206;
+    color: #ffffff
 }
 .word-example {
-    color: #012206;
+    color: #ffffff;
     font-style: italic;
     border-left: 5px solid #03350f;
     padding-left: 20px;
@@ -84,8 +92,19 @@ body {
 }
 footer {
     text-align: center;
-    background-color: #03350f;
+    padding: 10px;
+    background-color: #012206;
     color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+button {
+    background-color: #03350f;
+    text-size-adjust: 20px;
+    color: #ffffff;
+    margin: 6px;
 }
 .error {
     margin-top: 80px;
